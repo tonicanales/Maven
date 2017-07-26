@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <servlet>
+    <servlet-name>sradminA</servlet-name>
+    <servlet-class>com.poo.gae.SradminA</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sradminA</servlet-name>
+    <url-pattern>/sradminA</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>anadirA</servlet-name>
+    <servlet-class>com.poo.gae.AnadirA</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>anadirA</servlet-name>
+    <url-pattern>/anadirA</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>borrarA</servlet-name>
+    <servlet-class>com.poo.gae.BorrarA</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>borrarA</servlet-name>
+    <url-pattern>/borrarA</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>actualizarA</servlet-name>
+    <servlet-class>com.poo.gae.ActualizarA</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>actualizarA</servlet-name>
+    <url-pattern>/actualizarA</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>listadoG</servlet-name>
+    <servlet-class>com.poo.gae.ListadoG</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listadoG</servlet-name>
+    <url-pattern>/listadoG</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>actualizarG</servlet-name>
+    <servlet-class>com.poo.gae.ActualizarG</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>actualizarG</servlet-name>
+    <url-pattern>/actualizarG</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>anadirG</servlet-name>
+    <servlet-class>com.poo.gae.AnadirG</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>anadirG</servlet-name>
+    <url-pattern>/anadirG</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>borrarG</servlet-name>
+    <servlet-class>com.poo.gae.BorrarG</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>borrarG</servlet-name>
+    <url-pattern>/borrarG</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
